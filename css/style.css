@@ -1,10 +1,11 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 #container {
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -18,10 +19,15 @@ h1 {
     font-size: 2rem;
 }
 
+h3,
 h5,
 h6 {
     font-weight: normal;
     color: rgba(141, 147, 157, 255);
+}
+
+h3 {
+    font-weight: bold;
 }
 
 span {
@@ -44,4 +50,23 @@ span {
 
 .light-blue {
     background-color: rgba(177, 229, 242, 255);
+}
+
+#monitor {
+    width: 300px;
+    height: 200px;
+    background-image: url(../img/monitor.jpg);
+}
+
+h2 {
+    color: white;
+    font-size: larger;
+    padding-top: 3%;
+    padding-left: 3%;
+}
+
+#graph {
+    width: 300px;
+    height: 200px;
+    background-image: url(../img/graph.jpg);
 }
