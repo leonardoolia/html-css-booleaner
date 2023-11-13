@@ -4,19 +4,33 @@
     box-sizing: border-box;
 } */
 
+body {
+    margin: 0;
+}
+
 #container {
-    width: 80%;
+    max-width: 1080px;
     margin: 0 auto;
 }
 
 #pattern {
+    width: 1000px;
+    height: 100px;
     background-color: rgba(78, 160, 255, 255);
     background-image: url(../img/pattern.png);
+    background-size: contain;
+}
 
+#logo {
+    height: auto;
+    width: 150px;
+    margin-left: 0%;
+    padding-top: 35px;
 }
 
 h1 {
     font-size: 2rem;
+    margin-bottom: 0%;
 }
 
 h3,
@@ -24,6 +38,7 @@ h5,
 h6 {
     font-weight: normal;
     color: rgba(141, 147, 157, 255);
+    margin: 0%;
 }
 
 h3 {
@@ -63,10 +78,12 @@ h2 {
     font-size: larger;
     padding-top: 3%;
     padding-left: 3%;
+    background-size: cover;
 }
 
 #graph {
     width: 300px;
     height: 200px;
     background-image: url(../img/graph.jpg);
+    background-size: cover;
 }
