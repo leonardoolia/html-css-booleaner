@@ -1,14 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #container {
     margin: 0 auto;
 }
-
-/* header {
-    width: 80%;
-    height: 5%;
-} */
 
 #pattern {
     background-color: rgba(78, 160, 255, 255);
     background-image: url(../img/pattern.png);
 
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h5,
+h6 {
+    font-weight: normal;
+    color: rgba(141, 147, 157, 255);
+}
+
+span {
+    color: rgba(78, 160, 255, 255);
+}
+
+#photo-description {
+    font-size: x-small
 }
