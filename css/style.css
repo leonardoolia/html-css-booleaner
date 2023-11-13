@@ -31,3 +31,17 @@ span {
 #photo-description {
     font-size: x-small
 }
+
+.highlight {
+    background-color: yellow;
+    color: black;
+}
+
+.dark-blue {
+    background-color: rgba(32, 169, 229, 255);
+    color: white;
+}
+
+.light-blue {
+    background-color: rgba(177, 229, 242, 255);
+}
